@@ -311,7 +311,7 @@ body {
 
 @media screen and (min-width: 481px) and (max-width: 1050px) {
   body {
-    background-image: url(Background2.png);
+    background-image: url(Background1.png);
     background-color: #160430;
     background-size: cover;
     height: 100vh;
