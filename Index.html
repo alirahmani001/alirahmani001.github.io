@@ -1,0 +1,70 @@
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Login</title>
+  <script src="App.js"></script>
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- اعمال برای رسپانسیو -->
+  <link rel="stylesheet" href="Main.css">
+</head>
+
+<body>
+  <div class="Container">
+    <header class="header-item">
+      <img src="../image/Logo.png" alt="Logo">
+      <nav class="navbar-toggler">
+        <span class="loader"></span>
+        <a href="">HOme</a>
+        <a href="">ABout</a>
+        <a href="">PHone</a>
+        <a href=""><i class="uil uil-user-circle"></i>SIgn in</a>
+        <i class="uil uil-bars" onclick="ToggleNavbar() "></i>
+      </nav>
+    </header>
+    <div class="navbar-list-toggle">
+      <div id="navbar">
+        <div class="line-navbar-toggle"></div>
+        <a href="">HOme</a>
+        <div class="line-navbar-toggle"></div>
+        <a href="">ABout</a>
+        <div class="line-navbar-toggle"></div>
+        <a href="">PHone</a>
+        <div class="line-navbar-toggle"></div>
+      </div>
+    </div>
+    <main class="main-item">
+      <aside class="aside-item">
+        <div class="X">
+          <div class="headerText">
+            <h1>SIGN IN</h1>
+            <div>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <a href="#">Sign in with email address</a>
+          <input id="in" class="inn" type="text" placeholder="Yourname@gmail.com " onkeyup="HandleEnterKeyUp(event)" />
+          <button type="submit" onkeyup="PrintTask()"><i class="uil uil-sign-in-alt"></i>SIGN UP</button>
+          <div class="line-numbers-rows"></div>
+          <a href="#">Or continue with</a>
+          <div class="btn-group">
+            <a href=""><i class="uil uil-google"></i> &nbsp;Google</a>
+            <a href=""><i class="uil uil-facebook-f"></i> &nbsp;Facebook</a>
+          </div>
+          <a href="#">By registering you with our Terms and Conditions</a>
+        </div>
+      </aside>
+    </main>
+    <div class="lbl">
+      <label class="label1"><i class="uil uil-java-script"></i>&nbsp;Sign in to your <br><span>adventure!</span></label>
+      <label class="label2"><i class="uil uil-closed-captioning"></i> &nbsp;Copyright by Ibrahim Memon</label>
+    </div>
+  </div>
+</body>
+
+</html>
